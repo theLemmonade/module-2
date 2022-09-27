@@ -14,7 +14,7 @@ https://thelemmonade.github.io/module-2/
 
 ## Screen capture
 
-
+![screencap](https://user-images.githubusercontent.com/112985017/192437525-3055295a-659c-4723-87ca-546fbf20066a.jpg)
 
 ## Authors
 
