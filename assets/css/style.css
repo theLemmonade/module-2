@@ -4,12 +4,30 @@
     background-color: #222;
   }
 
+  :visited {
+    color: darkgreen;
+  }
+
+  img {
+    max-width:100%;
+    padding: 2px;
+    border-style: solid;
+    border-width: 2px;
+
+  }
+
+  img:hover {
+    color: lime;
+    -webkit-animation: blink 0.8s infinite;
+  }
+
   #title {
     font-size: 15pt;
     float:left;
     display: flex;
     align-items: baseline;
     margin-left: 30px;
+    margin-top: 15px;
   }
 
   #cursor {
@@ -19,14 +37,13 @@
     width: 8px;
     height: 15px;
   }
-  
+
   @-webkit-keyframes blink {
     0% {background: #222}
     50% {background: lime}
     100% {background: #222}
   }
-  
-  
+
   .topnav {
     overflow: hidden;
   }
@@ -36,7 +53,7 @@
     float:right;
     display: flex;
     margin-right: 30px;
-    margin-top: 20px;
+    margin-top: 35px;
     text-decoration: none;
   }
 
@@ -44,19 +61,41 @@
     color: black;
     -webkit-animation: blink 0.8s infinite;
   }
+
+  h2 {
+    font-size: 150%;}
   
   .content {
     margin: 50px;
     border-style: solid;
     border-width: 1px;
     border-radius: 10px;
-    padding-left: 20px; 
+    padding: 20px; 
   }
 
-  .content header {
-    
+  .extracontent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
-  
+
+  .extracontent img {
+    padding: 2px;
+    margin: 20px;
+    height: 250px;
+    width: 400px;
+  }
+
+  .social {
+    font-size: 120%;
+    line-height: 30px;
+  }
+
+  .social:hover {
+  color: black;
+  -webkit-animation: blink 0.8s infinite;
+  }
+
   .footer {
    text-align: center;
   }
